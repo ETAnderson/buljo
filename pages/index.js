@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import ControlInterface from "../components/interface/ControlInterface";
 
 export default function Home() {
   return (
@@ -12,9 +13,12 @@ export default function Home() {
 
       <main>
         <h1>Buljo</h1>
+        {/* <Display /> */}
       </main>
 
-      <footer></footer>
+      <footer>
+        <ControlInterface />
+      </footer>
     </div>
   );
 }
